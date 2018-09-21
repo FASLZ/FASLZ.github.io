@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[tool]]></title>
+    <title><![CDATA[Tool]]></title>
     <url>%2F2018%2F09%2F21%2Ftool%2F</url>
-    <content type="text"><![CDATA[APPtool]]></content>
+    <content type="text"><![CDATA[App for Android Coding C4droid Pydroid3 AIDE Java N-IDE]]></content>
   </entry>
   <entry>
     <title><![CDATA[Hello World]]></title>
@@ -13,6 +13,6 @@
   <entry>
     <title><![CDATA[12306车票查询]]></title>
     <url>%2F2018%2F09%2F09%2F12306%2F</url>
-    <content type="text"><![CDATA[2018-09-21貌似已失效 从C脱坑开始接触Python，这门传说中的入门语言 让从我一脸茫然到现在渐渐发现了它的强大( ॑꒳ ॑) 最近在网上发现了使用python进行12306查票，于是乎写下这篇文章&gt; 来自网络### 需要的模块# import requests 用于获取网页数据 docopt 解析命令行参数 prettytable， 数据用表格的形式打印在终端 colorama， 为打印在表格中的数据着色安装方式：1pip install requests prettytable docopt colorama 1import requests]]></content>
+    <content type="text"><![CDATA[2018-09-21由于12306反爬措施频繁升级，该程序已失效将不定期更新 从C脱坑开始接触Python，这门传说中的语言 让我从一脸茫然到现在渐渐发现了它的强大( ॑꒳ ॑) 最近在网上发现了使用python进行12306查票，正好拿来练练手，于是乎写下此文 方法 模拟用户登录网站查询页面 提交查询信息 解析并打印获得信息 需要的模块 requests 用于获取网页数据 docopt 解析命令行参数 prettytable， 数据用表格的形式打印在终端 colorama， 为打印在表格中的数据着色 安装方式： pip install requests prettytable docopt colorama 第一步当我们打开网站时，你会发现只能从页面中的表单进行查询，如果是这样的话要用另一种模拟用户的方法了，以后再作讨论那么，如何将我们所需要的需求直接提交给12306的服务器呢？这里大佬帮我们找到了提交的网址(具体可以百度) [“https://kyfw.12306.cn/otn/leftTicket/query?leftTicketDTO.train_date={}&amp;leftTicketDTO.from_station={}&amp;leftTicketDTO.to_station={}&amp;purpose_codes=ADULT&quot;]在括号中填入相应值 1import requests]]></content>
   </entry>
 </search>
