@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[tool]]></title>
+    <url>%2F2018%2F09%2F21%2Ftool%2F</url>
+    <content type="text"><![CDATA[APPtool]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2F2018%2F09%2F19%2Fhello-world%2F</url>
     <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
   </entry>
   <entry>
     <title><![CDATA[12306车票查询]]></title>
-    <url>%2F2018%2F09%2F09%2FHi%2F</url>
-    <content type="text"><![CDATA[现在貌似已失效]]></content>
+    <url>%2F2018%2F09%2F09%2F12306%2F</url>
+    <content type="text"><![CDATA[2018-09-21貌似已失效 从C脱坑开始接触Python，这门传说中的入门语言 让从我一脸茫然到现在渐渐发现了它的强大( ॑꒳ ॑) 最近在网上发现了使用python进行12306查票，于是乎写下这篇文章&gt; 来自网络### 需要的模块# import requests 用于获取网页数据 docopt 解析命令行参数 prettytable， 数据用表格的形式打印在终端 colorama， 为打印在表格中的数据着色安装方式：1pip install requests prettytable docopt colorama 1import requests]]></content>
   </entry>
 </search>
