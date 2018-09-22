@@ -4,6 +4,9 @@
     <title><![CDATA[Tool]]></title>
     <url>%2F2018%2F09%2F21%2Ftool%2F</url>
     <content type="text"><![CDATA[App for Android Coding C4droid Pydroid3 AIDE Java N-IDE]]></content>
+      <tags>
+        <tag>tool</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[Hello World]]></title>
@@ -12,7 +15,10 @@
   </entry>
   <entry>
     <title><![CDATA[12306车票查询]]></title>
-    <url>%2F2018%2F09%2F09%2F12306%2F</url>
-    <content type="text"><![CDATA[2018-09-21由于12306反爬措施频繁升级，该程序已失效将不定期更新 从C脱坑开始接触Python，这门传说中的语言 让我从一脸茫然到现在渐渐发现了它的强大( ॑꒳ ॑) 最近在网上发现了使用python进行12306查票，正好拿来练练手，于是乎写下此文 方法 模拟用户登录网站查询页面 提交查询信息 解析并打印获得信息 需要的模块 requests 用于获取网页数据 docopt 解析命令行参数 prettytable， 数据用表格的形式打印在终端 colorama， 为打印在表格中的数据着色 安装方式： pip install requests prettytable docopt colorama 第一步当我们打开网站时，你会发现只能从页面中的表单进行查询，如果是这样的话要用另一种模拟用户的方法了，以后再作讨论那么，如何将我们所需要的需求直接提交给12306的服务器呢？这里大佬帮我们找到了提交的网址(具体可以百度) [“https://kyfw.12306.cn/otn/leftTicket/query?leftTicketDTO.train_date={}&amp;leftTicketDTO.from_station={}&amp;leftTicketDTO.to_station={}&amp;purpose_codes=ADULT&quot;]在括号中填入相应值 1import requests]]></content>
+    <url>%2F2018%2F09%2F01%2F12306%2F</url>
+    <content type="text"><![CDATA[2018-09-21由于12306反爬措施频繁升级，该程序已失效将不定期更新 从C脱坑开始接触Python，这门传说中的语言让我从一脸茫然到现在渐渐发现了它的强大( ॑꒳ ॑)最近在网上发现了使用python进行12306查票，正好拿来练练手，于是乎写下此文 方法 模拟用户登录网站查询页面 提交查询信息 解析并打印获得信息 需要的模块 requests 用于获取网页数据 docopt 解析命令行参数 prettytable， 数据用表格的形式打印在终端 colorama， 为打印在表格中的数据着色 安装方式： pip install requests prettytable docopt colorama 第一步当我们打开网站时，你会发现只能从页面中的表单进行输入，如果是这样的话要用另一种方法，这里不做讨论那么，如何将我们所需要的需求直接提交给12306的服务器呢？这里大佬帮我们找到了提交的网址(具体可以百度) https://kyfw.12306.cn/otn/leftTicket/query?leftTicketDTO.train_date={}&amp;leftTicketDTO.from_station={}&amp;leftTicketDTO.to_station={}&amp;purpose_codes=ADULT在括号中填入相应值比如 {2018-09-01}{SHH}{XAY} 日期只能填写当日和之后30天 那几个字母就是站点的代号显然，12306不愿让我们知道对应的站台。但这不会阻碍我们提交。经过查找，可以发现站点对照表https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8971 不难发现在station_names字符串中，有站点对应的中文拼音代号，因此可以通过程序来获得代号并填入之前的链接 1import requests]]></content>
+      <tags>
+        <tag>python</tag>
+      </tags>
   </entry>
 </search>
