@@ -50,6 +50,10 @@
 
 
 
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
 
 
 
@@ -87,7 +91,7 @@
     scheme: 'Muse',
     version: '6.4.1',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":true,"onmobile":true},
-    fancybox: false,
+    fancybox: true,
     fastclick: false,
     lazyload: false,
     tabs: true,
@@ -108,18 +112,18 @@
 
 
 
-  <meta name="description" content="2018-09-21由于12306反爬措施频繁升级，该程序已失效将不定期更新   从C脱坑开始接触Python，这门传说中的语言让我从一脸茫然到现在渐渐发现了它的强大( ॑꒳ ॑)最近在网上发现了使用python进行12306查票，正好拿来练练手，于是乎写下此文">
+  <meta name="description" content="2018-09-21由于12306反爬措施频繁升级，该程序已失效将不定期更新    从C脱坑开始接触Python，这门传说中的语言让我从一脸茫然到现在渐渐发现了它的强大( ॑꒳ ॑)最近在网上发现了使用python进行12306查票，正好拿来练练手，于是乎写下此文">
 <meta name="keywords" content="python">
 <meta property="og:type" content="article">
 <meta property="og:title" content="12306车票查询">
 <meta property="og:url" content="http://yoursite.com/2018/09/01/12306/index.html">
 <meta property="og:site_name" content="FasLz&#39;s Site">
-<meta property="og:description" content="2018-09-21由于12306反爬措施频繁升级，该程序已失效将不定期更新   从C脱坑开始接触Python，这门传说中的语言让我从一脸茫然到现在渐渐发现了它的强大( ॑꒳ ॑)最近在网上发现了使用python进行12306查票，正好拿来练练手，于是乎写下此文">
+<meta property="og:description" content="2018-09-21由于12306反爬措施频繁升级，该程序已失效将不定期更新    从C脱坑开始接触Python，这门传说中的语言让我从一脸茫然到现在渐渐发现了它的强大( ॑꒳ ॑)最近在网上发现了使用python进行12306查票，正好拿来练练手，于是乎写下此文">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-09-22T08:46:17.976Z">
+<meta property="og:updated_time" content="2018-09-22T12:10:59.052Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="12306车票查询">
-<meta name="twitter:description" content="2018-09-21由于12306反爬措施频繁升级，该程序已失效将不定期更新   从C脱坑开始接触Python，这门传说中的语言让我从一脸茫然到现在渐渐发现了它的强大( ॑꒳ ॑)最近在网上发现了使用python进行12306查票，正好拿来练练手，于是乎写下此文">
+<meta name="twitter:description" content="2018-09-21由于12306反爬措施频繁升级，该程序已失效将不定期更新    从C脱坑开始接触Python，这门传说中的语言让我从一脸茫然到现在渐渐发现了它的强大( ॑꒳ ॑)最近在网上发现了使用python进行12306查票，正好拿来练练手，于是乎写下此文">
 
 
 
@@ -411,7 +415,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2018-09-22 16:46:17" itemprop="dateModified" datetime="2018-09-22T16:46:17+08:00">2018-09-22</time>
+                <time title="Modified: 2018-09-22 20:10:59" itemprop="dateModified" datetime="2018-09-22T20:10:59+08:00">2018-09-22</time>
               
             
           </span>
@@ -436,14 +440,6 @@
           
 
           
-            <span class="post-meta-divider">|</span>
-            <span class="post-meta-item-icon"
-            >
-            <i class="fa fa-eye"></i>
-             Views:  
-            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
-            </span>
-          
 
           
 
@@ -465,14 +461,16 @@
         <div class="note warning">2018-09-21<p>由于12306反爬措施频繁升级，该程序已失效<br>将不定期更新</p></div>
 
 
+<blockquote>
 <p><em>从C脱坑开始接触Python，这门传说中的语言<br>让我从一脸茫然到现在渐渐发现了它的强大( ॑꒳ ॑)<br>最近在网上发现了使用python进行12306查票，正好拿来练练手，于是乎写下此文</em></p>
+</blockquote>
 <a id="more"></a>
-<h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><ol>
+<h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><ol>
 <li>模拟用户登录网站查询页面</li>
 <li>提交查询信息</li>
 <li>解析并打印获得信息</li>
 </ol>
-<h3 id="需要的模块"><a href="#需要的模块" class="headerlink" title="需要的模块"></a>需要的模块</h3><blockquote>
+<h2 id="需要的模块"><a href="#需要的模块" class="headerlink" title="需要的模块"></a>需要的模块</h2><blockquote>
 </blockquote>
 <pre><code>requests    用于获取网页数据
 docopt      解析命令行参数
@@ -480,7 +478,7 @@ prettytable， 数据用表格的形式打印在终端
 colorama， 为打印在表格中的数据着色
 安装方式：
 pip install requests prettytable docopt colorama
-</code></pre><h3 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h3><p>当我们打开网站时，你会发现只能从页面中的表单进行输入，如果是这样的话要用另一种方法，这里不做讨论<br>那么，如何将我们所需要的需求直接提交给12306的服务器呢？<br>这里大佬帮我们找到了提交的网址(具体可以百度)</p>
+</code></pre><h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><p>当我们打开网站时，你会发现只能从页面中的表单进行输入，如果是这样的话要用另一种方法，这里不做讨论<br>那么，如何将我们所需要的需求直接提交给12306的服务器呢？<br>这里大佬帮我们找到了提交的网址(具体可以百度)</p>
 <blockquote>
 <p><a href="https://kyfw.12306.cn/otn/leftTicket/query?leftTicketDTO.train_date={}&amp;leftTicketDTO.from_station={}&amp;leftTicketDTO.to_station={}&amp;purpose_codes=ADULT" target="_blank" rel="noopener">https://kyfw.12306.cn/otn/leftTicket/query?leftTicketDTO.train_date={}&amp;leftTicketDTO.from_station={}&amp;leftTicketDTO.to_station={}&amp;purpose_codes=ADULT</a><br>在括号中填入相应值<br>比如 {2018-09-01}{SHH}{XAY} <small>日期只能填写当日和之后30天</small>  </p>
 </blockquote>
@@ -499,6 +497,30 @@ pip install requests prettytable docopt colorama
 
     
 
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>Your encouragement is the driving force of my progress!!</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>Donate</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechatpay.jpg" alt="FASLZ WeChat Pay"/>
+        <p>WeChat Pay</p>
+      </div>
+    
+
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
     
 
     
@@ -683,7 +705,7 @@ show_date_time();
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#方法"><span class="nav-number">1.</span> <span class="nav-text">方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#需要的模块"><span class="nav-number">2.</span> <span class="nav-text">需要的模块</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第一步"><span class="nav-number">3.</span> <span class="nav-text">第一步</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#方法"><span class="nav-number">1.</span> <span class="nav-text">方法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#需要的模块"><span class="nav-number">2.</span> <span class="nav-text">需要的模块</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第一步"><span class="nav-number">3.</span> <span class="nav-text">第一步</span></a></li></ol></div>
             
 
           </div>
@@ -746,14 +768,6 @@ show_date_time();
 
 
         
-<div class="busuanzi-count">
-  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
-  
-
-  
-</div>
-
 
 
 
@@ -801,6 +815,8 @@ show_date_time();
 
 
 
+  
+
 
 
 
@@ -828,6 +844,11 @@ show_date_time();
   
   
     <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
   
 
 
