@@ -2037,7 +2037,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff6b49;
+  background: #500675;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2804,6 +2804,10 @@ embed {
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
 }
+.copyright,
+.views {
+  color: #fff;
+}
 .post {
   background-color: #fff;
 }
@@ -2822,6 +2826,13 @@ embed {
 .pagination .page-number {
   margin-bottom: initial;
   top: initial;
+}
+.posts-expand .post-body img {
+  border: none;
+  padding: 0px;
+}
+.post-gallery .post-gallery-img img {
+  padding: 3px;
 }
 .site-author-image {
   border: 0px solid #fff;
