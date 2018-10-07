@@ -8,8 +8,8 @@
         <category>软件</category>
       </categories>
       <tags>
-        <tag>X-Plane</tag>
         <tag>App</tag>
+        <tag>X-Plane</tag>
         <tag>fly</tag>
       </tags>
   </entry>
@@ -18,14 +18,9 @@
     <url>%2F2018%2F09%2F21%2Ftool%2F</url>
     <content type="text"><![CDATA[App for Android &gt;Coding C4droid -C/C++ IDE Pydroid3 -Python3 IDE AIDE -Java/Android_app/Html IDE Java N-IDE -Java IDE anWriter free -Html/css/JavaScrip IDE Learn code SoloLearn -the best community AIDE -you can learn android app programming for LinuxTerminal w3m -an web browser (with image) elinks -web browser weechat -IRC irssi -IRC Xchat -IRC 未完待续]]></content>
       <tags>
-        <tag>App</tag>
         <tag>tool</tag>
+        <tag>App</tag>
       </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2018%2F09%2F19%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
   </entry>
   <entry>
     <title><![CDATA[12306车票查询]]></title>
@@ -39,5 +34,10 @@
         <tag>code</tag>
         <tag>12306</tag>
       </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2018%2F09%2F09%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[开启新的旅程]]></content>
   </entry>
 </search>
