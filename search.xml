@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[sstv音频传图]]></title>
+    <url>%2F2019%2F01%2F27%2Fsstv%E9%9F%B3%E9%A2%91%E4%BC%A0%E5%9B%BE%2F</url>
+    <content type="text"><![CDATA[每隔一段时间，国际空间站就会通过无线电向地面下传sstv图像 SSTVSSTV全称慢扫描电视(Slow Scan Television)，通过将像素转码为脉冲音频信号进行传输图像。 空间站sstv使用频率为145.800 MHz FM，模式为PD120。收到图像以后，可以将其分享在http://www.spaceflightsoftware.com/ARISS_SSTV/ 如何接收安卓手机接收APP 很简单，直接从空间站接收SSTV图像需要将Windows PC或Apple iOS设备上的声卡界面与业余无线电收发信机的音频输出相连接，并将收发信机调谐到145.800 MHz FM。您甚至可以在收发信机的扬声器旁边拿着一个iPhone来接收图片。在Windows中MMSSTV可用于解码信号，在Apple iOS设备上，您可以使用SSTV应用程序进行兼容模式。对于Linux系统，请尝试使用QSSTV。]]></content>
+      <categories>
+        <category>国际空间站</category>
+      </categories>
+      <tags>
+        <tag>SSTV</tag>
+        <tag>音频传输</tag>
+        <tag>ISS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[用Netflix看大片]]></title>
     <url>%2F2019%2F01%2F05%2F%E7%94%A8Netflix%E7%9C%8B%E5%A4%A7%E7%89%87%2F</url>
     <content type="text"><![CDATA[Netflix又称奈飞，是全美乃至全球最大的网络影视提供商，你在这里几乎可以找到所有电影和电视剧。如果你喜欢欧美电影和电视剧，那么你找对地方了。 Netflix原本是美国的一家DVD租赁连锁店。有一天Netflix开窍了，借着互联网的热潮，转身去做了网络租赁，自此一跃成为了知名视频网站。为了避免大量购买版权而需要的资金巨坑，Netflix又另辟蹊径自己创作电影。于是有了《纸牌屋》,有了股票暴涨7倍的神话。 …但遗憾的是,Netflix目前暂未进入中国大陆。这意味着想要躺在床上追剧看电影就得先折腾一翻(此处留坑) 使用Netflix的正确姿势你需要什么？Netflix账号 -注册账号要收费,价格也不便宜。梯子 -由于Netflix查封了大量VPN，所以找一个有效的方法极为重要。 Netflix支持全平台播放，iOS,Android,TV,Xbox One,Chromecast.下载对应软件即可 靠谱的做法✔在淘宝上购买Netflix账号,这也是最方便的。✔百度支持奈飞线路的节点，价格有五到几十不等。这里推荐一个免费的，但只有2个G的流量(｡･∀･)ﾉﾞヾ(･ω･。) 技术层绕过首先确保可以翻墙由于Netflix对ip和cookie有严格的管理，请在同一地区(线路)登录除了使用上面的方法，还可以改变hosts- Windows中将c:\windows\system32\drivers\etc\hosts 文件复制到桌面，添加域名，保存再强行覆盖之前路径。 进入官网，点击注册，输入邮箱地址和密码。下一步，提示选择支付方式你可以选择礼品卡，淘宝也有卖的。还可以选择填写银行卡但你应该没有国外的银行卡吧？so我们来生成一个PayPal，这不妨碍注册和免费使用一个月在这里生成号码然后测试时效性用上面生成的资料注册一个PayPal账号返回Netflix注册页面使用PayPal支付完成✔]]></content>
@@ -34,10 +47,10 @@
         <category>分布式计算</category>
       </categories>
       <tags>
+        <tag>Gridcoin</tag>
         <tag>树莓派</tag>
         <tag>BOINC</tag>
         <tag>分布式计算</tag>
-        <tag>Gridcoin</tag>
       </tags>
   </entry>
   <entry>
