@@ -2044,7 +2044,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #e5e7ff;
+  background: #e3ffe9;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2921,7 +2921,12 @@ img.img-topic {
 #days {
   display: block;
   font-size: 13px;
-  margin-top: 25px;
+  margin-top: 10px;
+}
+#api {
+  display: block;
+  font-size: 13px;
+  margin-top: 35px;
 }
 .site-author-image {
   border: 0px solid #fff;
