@@ -2044,7 +2044,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #e3ffe9;
+  background: #9e60ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2867,6 +2867,17 @@ span#inline-toc {
   padding: 0.05em 0.4em;
   margin: 2px 5px 2px 0px;
   line-height: 1.5;
+}
+#svg {
+  display: flex;
+}
+.badge {
+  display: inline-block;
+  padding-left: 1px;
+  padding-right: 1px;
+  margin-bottom: 0px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 .posts-expand .post-body img {
   border: none;
